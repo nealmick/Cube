@@ -1,4 +1,4 @@
-# cube
+# Cube
 Rubiks cube that solves it self.
 <br/>
 Uses three js to render cube.

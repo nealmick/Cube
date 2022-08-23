@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/three@0.122.0/examples/js/controls/OrbitControls.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/three@0.122.0/build/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/three@0.122.0/examples/js/controls/OrbitControls.min.js"></script>
+
+	</head>
+	<body style="background-color:#383838;">
+
+
+		<div class="top-left">
+
+			<pre><h3 id="cubeStat"style="color:white">cube</h3></pre>
+			
+			<pre>
+			<p id="cube"style="color:white">cube</p>	
+			</pre>
+
+
+			<script  src="cube.js"></script>
+		</div>
+		<div class="bottom-left">
+
+			<button id="shuffle-btn" onclick="shuffle('a')">shuffle</button>
+			<button id="revert-btn" onclick="revert()">revert</button>
+			<button id="reset-btn" onclick="reset()">reset</button>
+			<button id="back-btn" onclick="back()">back</button>
+			<button id="bigger-btn" onclick="cube=bigger(cube)">bigger</button>
+			<button id="smaller-btn" onclick="cube=smaller(cube)">smaller</button>
+			
+			<button id="solve-btn" onclick="s()">solve</button>
+			<button id="test-btn" onclick="test()">test</button>
+		</div>
+		
+
+		<div>
+		<canvas class="webgl"></canvas>   
+		</div>
+	</body>
+</html> 

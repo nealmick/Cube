@@ -6,7 +6,10 @@ Uses three js to render cube.
 Orbital controls to rotate around cube.
 <br/>
 solves instantly, plays back moves delayed.
+<br/>
 Has bigger and smaller function.
+<br/>
 possible bigger future cubes.
+<br/>
 3 x 3 cubes only for now.
 

@@ -13,3 +13,4 @@ possible bigger future cubes.
 <br/>
 3 x 3 cubes only for now.
 
+check out cube.js, thats where all the logic is.

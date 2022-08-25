@@ -1,5 +1,5 @@
-# Cube
-Rubiks cube that solves it self.
+# Cube Solver
+Rubiks cube that solves it self instantly.
 <br/>
 Uses three js to render cube.
 <br/>

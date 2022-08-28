@@ -11,11 +11,14 @@ scene = new THREE.Scene();
 let faces = 6
 let x = 3
 let y = 3
+
 let cubeGap = .2
+
 let delay= 1
 let shuffleDelay= 5
 let solveDelayStep=3
 let solveDelay = .15
+
 let moveCount = 0
 let history = []
 let shuffleCount = 50
@@ -35,7 +38,7 @@ cub3 = init();
 
 
 animate(controls);
-
+//old loop
 async function fdsa(){
 	while(loop){
 		test()
@@ -43,6 +46,7 @@ async function fdsa(){
 	}
 }
 
+//loops solve shuffle
 async function test(){
 	await sleep(1000)
 	for(foo = 100; foo>0;foo--){
@@ -68,6 +72,7 @@ async function test(){
 	}
 
 }
+//prepare to solve
 function s(){
 	console.log('test')
 	history = []
@@ -79,6 +84,8 @@ function s(){
 	console.log('done')
 
 }
+
+//solve
 async function solve(){
 	
 	firstTop()
@@ -92,7 +99,7 @@ async function solve(){
 
 
 }
-
+//testlooop
 async function testloop(){
 	for(counter= 0; counter<100;counter++){
 		shuffle('b')
@@ -1793,7 +1800,7 @@ function animate() {
 //rubiks cube solver!----------------------------------------
 //turn x vertical
 //turn y horizontal
-
+//looking back on it could have just used these for part of the side turns
 function turnX(cube,input){
 	console.log('turning X----------------',input)
 	let cloneCube = structuredClone(cube)

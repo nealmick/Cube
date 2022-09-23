@@ -2,7 +2,7 @@
 
 Rubiks cube that solves it self instantly.
 
-<img src="[https://media.giphy.com/media/VFxAFcJqEwcd8gx8A5/giphy.gif](https://media.giphy.com/media/VFxAFcJqEwcd8gx8A5/giphy.gif)" width="200" height="200" />
+<iframe src="https://giphy.com/embed/VFxAFcJqEwcd8gx8A5" width="480" height="470" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/VFxAFcJqEwcd8gx8A5">via GIPHY</a></p>
 
 
 

@@ -7,7 +7,3 @@ The cube is rendered using the JavaScript library Three.js. Active state of the 
 check out live version here:
 
 #### https://nealmick.com/cube/
-
-check out logic in cube.js
-
-#### https://github.com/nealmick/cube/blob/main/cube.js

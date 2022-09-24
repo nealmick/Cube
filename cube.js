@@ -26,62 +26,21 @@ let sceneRotationSpeed = 0.2
 
 let loop = true
 
-//create cube
+//create cube array
 cube = createCube(faces, x ,y)
-printCube(cube)
-
-
-
-//three
+//create three js cube
 cub3 = init();
-//fdsa()
-
-
+//starts renderer with camera scene and controls
 animate(controls);
-//old loop
-async function fdsa(){
-	while(loop){
-		test()
-		await sleep(20000)
-	}
-}
 
-//loops solve shuffle
-async function test(){
-	await sleep(1000)
-	for(foo = 100; foo>0;foo--){
-		scene.rotation.y += .05
-		await sleep(20);
-	}
-	await sleep(500)
-	shuffle()
-	await sleep(1000)
-	if(!loop){
-		return
-	}
-	for(foo = 100; foo>0;foo--){
-		scene.rotation.y += .05
-		await sleep(20);
-	}
-	await sleep(500)
-
-	s()
-	for(foo = 150; foo>0;foo--){
-		scene.rotation.y += .05
-		await sleep(20);
-	}
-
-}
 //prepare to solve
 function s(){
-	console.log('test')
 	history = []
 	solve()
 	let h = history.slice();
 	revert()
 	history = h.slice();
 	forward()
-	console.log('done')
 
 }
 
@@ -92,12 +51,9 @@ async function solve(){
 	topCorners()
 	middleSolve()
 	bottomCross()
-	bottomCrossMatch()//this 1 is rly bad
+	bottomCrossMatch()
 	cornerFinalPosition()
 	finalSolve()
-
-
-
 }
 //testlooop
 async function testloop(){

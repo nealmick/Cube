@@ -14,5 +14,6 @@ The cube is rendered using the JavaScript library Three.js. Active state of the 
 
 #### Check out live version here:   https://nealmick.com/cube/
 
+
 <img src="https://media.giphy.com/media/VFxAFcJqEwcd8gx8A5/giphy.gif" width="400" height="400" />
 

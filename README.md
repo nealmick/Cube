@@ -10,7 +10,7 @@ The cube is rendered using the JavaScript library Three.js. Active state of the 
 1. cube.html - main html file
 2. cube.js - main logic for cube generation, turn, solve etc...
 3. style.css - color and styling
-
+ 
 
 #### Check out live version here:   https://nealmick.com/cube/
 

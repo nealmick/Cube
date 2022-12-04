@@ -1,5 +1,5 @@
 # Rubik's Cube!
-
+ 
 #### Solves itself instantly and is rendered in-browser with intuitive controls
 
 

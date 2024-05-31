@@ -10,7 +10,7 @@ The 3 x 3 cube has more possible states than grains of sand in all of earth's de
 3. style.css - color and styling
  
 
-# Live:   https://nealmick.com/cube/
+# Live:   https://app.nealmick.com/cube/
 
 
 <img src="https://media.giphy.com/media/VFxAFcJqEwcd8gx8A5/giphy.gif" width="400" height="400" />
